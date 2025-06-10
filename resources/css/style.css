@@ -38,17 +38,23 @@ header{
     margin: 0 atuo;
     min-height: 100vh;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height:auto;
+    padding:1rem;
+}
 
 .logo{
     width: auto;
-    float: left;
-    margin:0 auto;
-
+    height: auto;
 }
 .logo img{
     height: auto;
     width: 10vw;
-    margin-top:1rem;
+   
 }
 .toggle-btn {
   display: none;
@@ -58,9 +64,8 @@ header{
 }
 .main-nav {
     list-style: none;
-    float: right;
-    margin-top:4rem;
     margin-right:1.5rem;
+
 }
 .main-nav  li{
     display: inline-block;
