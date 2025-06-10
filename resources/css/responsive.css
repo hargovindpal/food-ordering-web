@@ -140,13 +140,15 @@
 
     .main-nav li {
         margin-left:0rem;
-        padding:0.46rem 1rem;
+        padding:0.42rem 1rem;
         border-bottom:0.05rem solid #ccc;
+        width: 100%;
     }
 
     .main-nav li a:link,
     .main-nav li a:visited {
         font-size: 50%;
+        display: block;
     }
 
     .top-nav {
