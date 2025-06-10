@@ -1,0 +1,359 @@
+@media only screen and (max-width:1200px){
+    section{
+        padding:1rem 0 0;
+    }
+    .container{
+        width: 100%;
+        padding:0;
+    }
+    .row{
+        width: 96%;
+    padding: 0 2%;
+   }
+   .cities img {
+       width: 12rem;
+        height: 8rem;
+   }
+   blockquote p {
+       margin-top: 0.5rem;
+
+   }
+   .contact-form {
+       width: 70%;
+       margin: 0 auto !important;
+   }
+}
+
+@media only screen and (max-width:1023px) {
+    html{
+        font-size: 18px;
+    }
+
+    .logo img {
+        height: auto;
+        width: 5rem;
+        margin-top: 2rem !important;
+    }
+    .main-nav li {
+        display: inline-block;
+        margin-left: 1rem;   
+    }
+    .row{
+        width: 98%;
+        padding: 0 2%;
+    }
+    .container {
+            width: 100% !important;
+            padding: 0;
+        }
+        
+    h2 {
+        font-size: 150%;
+        margin-bottom: 0.5rem;
+        letter-spacing: 0.01rem;       
+    }
+
+    h2:after {
+        margin-top: 0.5rem;       
+    }
+
+    .cities img {
+        width: 10rem;
+        height: 7rem;
+
+    }
+
+    .city-feature span {
+        font-size: 90%;
+    }
+    h3 {
+        font-size: 100%;
+        margin-bottom: 1rem;   
+    }
+    .meals-photo img {
+        min-height:10rem;
+    }
+    .city-feature span{
+        font-size:90%;
+    }
+    blockquote p{
+        font-size: 80%;
+        margin-top:0.5rem;
+        
+    }
+    cite img {
+        height: 3.5rem;
+        width:3.5rem ;
+        border-radius: 50%;
+        margin-right: 1rem; 
+        object-fit: cover;  
+    }
+    .contact-form {
+        width: 70%;
+        margin: 0 auto;   
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    header {
+        height: 30vh;
+    }
+    .logo {
+        margin: 0 ;  
+    }
+    .logo img {
+        height: auto;
+        width:4rem;
+        margin-top: 0 !important;
+    }
+
+.toggle-btn {
+    display: block;
+    margin-top:0.6rem;
+  }
+
+    .main-nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        width: 50%;
+        height:39vh;
+        background-color: #444;
+        position: absolute;
+        top: -1rem;
+        right:0rem;
+        z-index:1;
+        padding:0.25rem 0;
+    }
+
+
+    .main-nav.active {
+    display: flex;
+    flex-direction: column;
+    }
+
+    .main-nav li {
+        margin-left:0rem;
+        padding:0.46rem 0.5rem;
+        border-bottom:0.05rem solid #ccc;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        font-size: 50%;
+    }
+
+    .top-nav {
+        display: flex !important;
+        justify-content: space-between;
+        padding-top:0.5rem !important;
+    }
+
+    .hero-text-box {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+        .hero-text-box h1{
+            font-size: 90%;
+        }
+    .btn:link,
+    .btn:visited,
+    input[type=submit] {
+
+        font-size: 70%;
+        font-weight: 500;
+
+    }
+
+    h1 {
+        font-size: 0.9em;
+        margin: 0.67em 0;
+        padding: 0 1rem;
+    }
+
+    h2 {
+        font-size: 90%;
+        padding: 0.5rem 0.5rem 0;
+    }
+
+    h3 {
+
+        font-size: 80%;
+    }
+
+    p {
+        font-size: 75% !important;
+    }
+
+
+
+    .flex {
+        flex-wrap: wrap;
+
+    }
+
+    .row {
+        width: 100%;
+        padding: 0 1rem;
+    }
+
+    .col-4 {
+        width: 50% !important;
+
+
+    }
+
+    .col-2 {
+        width: 100% !important;
+
+
+    }
+
+    .col-3 {
+        width: 100% !important;
+
+
+    }
+
+    section {
+        width: 100%;
+        padding: 0;
+        display: flex;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .icon-big {
+        font-size: 200%;
+    }
+
+    .meals-photo {
+        width: 50% !important;
+        padding: 0;
+        height: auto !important;
+        object-fit: contain;
+
+    }
+
+    .meals-photo img {
+        width: 100% !important;
+         object-fit: cover;
+    }
+    .cities img {
+        width: 98%;
+        height: 11rem;
+    }
+
+    .city-feature span {
+        font-size: 75%;
+    }
+
+    .customers-review {
+        background: none;
+    }
+
+    .steps-phone img {
+        width: 100%;
+    }
+
+    .app-link img {
+        margin-right:1.5rem;
+        width:4rem;
+        height: auto;
+        margin-top: 0.5rem;
+
+    }
+
+    .plan-box {
+       width: 95% !important;
+        padding: 1.75rem 1rem;
+        margin-bottom: 0.25rem;
+        border-bottom: 0.15rem solid #ccc;
+
+    }
+    .plan-price {
+    font-size: 100%;
+    margin-bottom:0.25rem;
+    }
+    .plan-price span {
+        font-size: 90%;
+    }
+
+            
+    .contact-form {
+        width:90% !important;
+    }
+    label{
+        font-size: 80%;
+    }
+    select,
+    input {
+        margin-top: 0.5rem !important;
+        height: 5vh !important;
+    }
+}
+
+
+@media only screen and (max-width:480px) {
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/resources/css/images/bg-img.webp');
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    width: 100%;
+    min-height:30vh !important;
+
+}
+
+    .row{
+        width: 96%;
+        padding: 0 2%;
+   }
+   footer{
+    padding: 0;
+   }
+
+        h3 {
+            font-size: 90%;
+            margin-bottom: 0.5rem;
+        }
+        .city-feature {
+            margin-bottom: 0.25rem;
+        }
+        .city-feature span{
+            font-size: 80%;
+        }
+
+        .col-4{
+            width: 100% !important;
+            margin-top: 1rem;
+        }
+        .meals-photo {
+            width:50% !important;
+            padding:0; 
+            margin:0.1rem 0 0;  
+        }
+        .meals-photo img{
+            display: block;
+            width: 100% !important;
+            margin: 0.1rem 0 !important;
+        }
+        .contact-form {
+            width: 90% !important;   
+        }
+        label{
+            margin-bottom: 0.5rem !important;
+        }
+        select, input{
+            margin-top:0.5rem !important;
+            height: 5vh !important;
+        }
+}

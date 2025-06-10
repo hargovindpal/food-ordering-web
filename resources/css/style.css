@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+::selection{
+    background-color: #9b6a40;
+    color: #FFFFFF;
+}
+html{
+    background-color: #FFFFFF;
+    color:#555;
+    font-family:Lato, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+   scroll-behavior: smooth;
+}   
+body{
+   overflow-x: hidden !important;
+}
+.bg-primary{
+    background-color: #f4f4f4;
+}
+
+
+a{
+    text-decoration: none;
+}
+header{
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/resources/css/images/bg-img.webp');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
+    margin: 0 atuo;
+    min-height: 100vh;
+}
+
+.logo{
+    width: auto;
+    float: left;
+    margin:0 auto;
+
+}
+.logo img{
+    height: auto;
+    width: 10vw;
+    margin-top:1rem;
+}
+.toggle-btn {
+  display: none;
+  font-size: 1.8rem;
+  color: white;
+  cursor: pointer;
+}
+.main-nav {
+    list-style: none;
+    float: right;
+    margin-top:4rem;
+    margin-right:1.5rem;
+}
+.main-nav  li{
+    display: inline-block;
+    margin-left:2.5rem;
+    
+    
+}
+.main-nav  li a:link,
+.main-nav li a:visited
+{
+    text-decoration:none ;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 90%;
+    text-transform: uppercase;
+    border-bottom: 0.1rem solid transparent;
+    padding:0.4rem 0;
+    transition: border-bottom 0.2s;
+
+}
+.main-nav  li a:hover{
+
+    border-bottom: 0.1rem solid #e67e22;
+}
+
+.hero-text-box{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 250%;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.15rem;
+}
+.btn:link, .btn:visited, input[type=submit]{
+    display: inline-block;
+    padding:0.5rem 1.5rem;
+    border:none;
+    border-radius: 1rem;
+    background-color: none;
+    font-size:0.7rem;
+    font-weight: 300;
+    filter: drop-shadow(0 0.2rem 0.1rem rgba(230, 125, 5, 0.9));
+   
+}
+
+.btn-full:link, .btn-full:visited, input[type=submit]{
+    background-color: #e67e22;
+    margin-right: 1rem;
+    border:0.05rem solid #e67e22;
+    color: #FFFFFF;
+}
+
+.btn-hollow:link, .btn-hollow:visited{
+    background-color: #FFF;
+    border:0.05rem solid #e67e22;
+    color: #e67e22;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+
+.btn:hover, .btn:active, input[type=submit]:hover{
+    cursor: pointer;
+    background-color: #cf6d17;
+}
+
+.btn-hollow:hover, .btn-hollow:active{
+    color: #FFF;
+    background-color: #cf6d17;
+    border:0.05rem solid #cf6d17;
+}
+section{
+    padding: 4rem 0rem 0rem;
+    min-height:auto;
+    max-height: fit-content;
+    width: 100%;
+}
+h2{
+  
+    font-weight: 300;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 180%;
+    word-spacing: 0.1rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.05rem;
+}
+h2:after{
+    display: block;
+    height: 0.1rem;
+    background-color: #e67e22;
+    content: "";
+    width: 20%;
+    margin:0 auto;
+    margin-top:1.5rem;
+}
+.long-copy{
+    text-align: center;
+    line-height: 145%;
+    width:90%;
+    margin:0 auto;
+}
+h3{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 110%;
+    margin-bottom: 1rem;
+}
+.box{
+    display: inline-block;
+    padding:1%;
+}
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+    word-spacing: 0.05rem;
+}
+
+.icon-big{
+    color: #e67e22;
+    font-size: 350%;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+figure.meals-photo{
+    width: 25%;
+    height: 12rem;
+    margin:0;
+    overflow: hidden;
+    background-color: #000;
+    transition: transfrom 0.5s, opactiy 0.5s;
+}
+.meals-photo img{
+    width: 100%;
+    min-height: 12rem;
+    transform: scale(1.15);
+    opacity: 0.7;
+    object-fit: cover;
+
+    
+}
+.meals-photo img:hover{
+    transform: scale(1);
+    opacity: 1;
+    cursor: pointer;
+}
+.steps-phone{
+    display: flex;
+}
+.steps-phone img{
+    background: transparent;
+    filter: drop-shadow(0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.9));
+    width: 20rem;
+    height:auto;
+}
+.work-step{
+    display: flex;
+    align-items: center;
+    column-gap:0.25rem;
+    margin-bottom:0.5rem;
+
+}
+.steps{
+    height: 2rem;
+    width: 2rem;
+    padding:0.25rem;
+    text-align: center;
+    border-radius: 50%;
+    border: 0.1rem solid #e67e22;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+.app-link{
+    margin-bottom:2.5rem;
+}
+.app-link img{
+    margin-right:1.5rem;
+    width:7.5rem;
+    height: 2.5rem;
+    margin-top:2.5rem;
+    transform: scale(1.15);
+    transition: transform 0.2s;
+    filter: drop-shadow(0 0.25rem 0.5rem rgba(0, 0, 0, 0.9));
+}
+.app-link img:hover{
+  
+    transform: scale(1);
+}
+.cities img{
+    width: 14rem;
+    height: 10rem;
+    margin-bottom:0.25rem;
+    object-fit: cover;
+}
+.city-feature{
+    margin-bottom:0.25rem;
+}
+.icon-small{
+    color: #e67e22;
+    width: 1.5rem;
+    text-align: center;
+    vertical-align: middle;
+    margin-top:-0.25rem;
+}
+
+.customers-review{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/resources/css/images/bg-2.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        color: #FFF ;
+        padding:0.5rem 1rem;
+}
+blockquote{
+    position: relative;
+   padding:5%;
+   margin-right:0.25rem;
+   font-style: italic;
+   line-height: 120%;
+   margin-top:1rem;
+  background-color: #e67d2288;
+  border-radius: 0.15rem;
+
+}
+blockquote p{
+    margin-top: 0.5rem;
+}
+cite{
+    font-size: 90%;
+    margin-top:1.25rem;
+    display: flex;
+    align-items: center;
+}
+cite img{
+    height:5rem;
+    width: 5rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    object-fit: cover;
+}
+blockquote:before{
+    position: absolute;
+    content: "\201c";
+    font-size: 300%;
+    display: block;
+    top: 1.25rem;
+    left:0rem;
+}
+
+.plans{
+    background-color: #f4f4f4;
+}
+.plan-box{
+    background-color: #f4f4f4;
+    border-radius: 0.25rem;
+    width: 30% !important;
+    padding:1rem;
+    margin-right: 1rem;
+}
+.plan-box .plan-top{
+    border-bottom:0.05rem solid #e8e8e8;
+    margin-bottom: 0.5rem;
+    padding:0.5rem 0;
+}
+.Plan-listing p{
+    margin-bottom:0.25rem;
+    font-size: 90%;
+}
+.plan-price{
+    font-size: 120%;
+    color: #e67e22;
+}
+.plan-price span{
+    font-size: 70%;
+    font-weight: 300;
+}
+.plan-price-meal{
+    font-size: 88%;
+}
+.check-sign{
+    color: #e67e22;
+    width: 1.5rem;
+}
+.signup{
+    margin-top:1.5rem;
+}
+div:not(:last-child) input {
+  width: 100%;
+  height: 5vh;
+  margin-bottom:0.75rem;
+  border-radius: 0.15rem;
+  border: none;
+  border: 0.05rem solid #ccc;
+  padding: 0.05rem 0.25rem;
+
+}
+select {
+  width: 100%;
+  height: 5vh;
+  margin-bottom:0.25rem;
+  border-radius: 0.15rem;
+  border: 0.05rem solid #ccc;
+  padding: 0.1rem 0.25rem;
+
+}
+input[type=checkbox] {
+  margin-bottom: 0.25rem;
+  width: 1rem !important;
+  height: 1rem;
+  accent-color:#e67e22 ;
+}
+textarea{
+  width: 100%;
+  margin-bottom:0.25rem;
+  border-radius: 0.15rem;
+  border: 0.05rem solid #ccc;
+  padding: 0.1rem 0.25rem; 
+}
+.contact-form{
+    width: 60% !important;
+    margin:0 auto !important;
+}
+
+
+footer{
+    background-color: #555;
+    margin-top:1rem;
+    padding:0.5rem;
+}
+ul.footer-nav{
+    list-style: none;
+
+}
+ul.footer-nav li{
+    margin-right:1rem;
+    padding:0.5rem;
+    color:#FFF;
+    font-size: 80%;
+}
+ul.footer-nav li:hover  a{
+    color:#e67e22;
+}
+ul.footer-nav li a{
+
+    color:#FFF;
+}
+
+ul.social-links{
+    list-style: none;
+
+}
+ul.social-links li{
+    margin-right:1rem;
+    padding:0.5rem;
+    
+}
+ul.social-links li:hover a{
+    color:#e67e22;
+}
+ul.social-links li a{
+
+    color:#FFF;
+}
+
+.copyright{
+    color: #FFF;
+    font-size: 80%;
+}
+.copyright span{
+    color: #e67e22;
+}
