@@ -120,14 +120,16 @@
         display: none;
         flex-direction: column;
         position: absolute;
-        width: 50%;
-        height:39vh;
-        background-color: #444;
+        width: 70%;
+        height:auto;
+        background-color: #444444e1;
         position: absolute;
         top: -1rem;
-        right:0rem;
+        right:0rem !important;
+        margin-right:0rem !important;
         z-index:1;
         padding:0.25rem 0;
+        border-radius: 0.15rem;
     }
 
 
@@ -138,7 +140,7 @@
 
     .main-nav li {
         margin-left:0rem;
-        padding:0.46rem 0.5rem;
+        padding:0.46rem 1rem;
         border-bottom:0.05rem solid #ccc;
     }
 
